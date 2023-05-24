@@ -1,0 +1,25 @@
+---
+title: "Teams are generating ROI with Posit through:"
+format: PrettyPDF-pdf
+---
+
+* [Automating hours of work](#automating-hours-of-work)
+* [Empowering executives to make decisions in real-time rather than reading 200 page PDFs](#empowering-executives-to-answer-questions-in-real-time-rather-than-200-page-pdfs)
+* Improving end-to-end model deployment time
+* Exploring unanswered questions
+* Creating revenue generating tools
+* Allowing employees to sleep at night!
+
+## Automating hours of work
+
+**CARFAX** launched a work automation project using Posit Team that has saved 12K+ hours of manual work. Tiger Tang, Manager of Data Science at CARFAX gave a presentation at our annual conference on his initial automation project that aimed at saving 1,000 hours per year and has now saved 12,000 hours.
+
+**Veterans Affairs** uses Posit Team to understand employee burnout and take actionable steps at an executive level. In using an interactive visualization rather than the former 200 slide PDF, they have changed the conversation in executive briefings. In Ryan Derickson’s Posit Meetup presentation, he shared that this resulted in reduced claims backlogs by 5-10% percent which at their scale results in great savings from duplicative processes across different teams.
+
+**Novartis** uses a Shiny app with a Javascript backend published to Posit Connect to display safety data in a more user-friendly way for the Data Monitoring Committee, which includes external experts in their field. Bo Wang highlighted in a recent Data Science Hangout that the Data Monitoring Committee members' time is very expensive, so moving from their typical 200 page PDFs to the app has been crucial to reviewing the data with the limited time that they have.
+
+## Empowering executives to answer questions in real-time rather than 200 page PDFs
+
+**Veterans Affairs** uses Posit Team to understand employee burnout and take actionable steps at an executive level. In using an interactive visualization rather than the former 200 slide PDF, they have changed the conversation in executive briefings. In Ryan Derickson’s Posit Meetup presentation, he shared that this resulted in reduced claims backlogs by 5-10% percent which at their scale results in great savings from duplicative processes across different teams.
+
+**Novartis** uses a Shiny app with a Javascript backend published to Posit Connect to display safety data in a more user-friendly way for the Data Monitoring Committee, which includes external experts in their field. Bo Wang highlighted in a recent Data Science Hangout that the Data Monitoring Committee members' time is very expensive, so moving from their typical 200 page PDFs to the app has been crucial to reviewing the data with the limited time that they have.
