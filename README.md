@@ -19,7 +19,7 @@ Note that you will need to update the output format in the YAML of your Quarto d
 
 ```
 ---
-title: "Teams are generating ROI with Posit through:"
+title: "Title"
 format: PositQuarto-pdf
 ---
 ```
