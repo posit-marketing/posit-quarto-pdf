@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-format: PrettyPDF-pdf
+format: PositQuarto-pdf
 ---
 
 ## Quarto
