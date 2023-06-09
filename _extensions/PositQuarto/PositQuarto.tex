@@ -7,14 +7,30 @@
 \usepackage{fontspec}
 \usepackage{titlesec}
 \usepackage{graphicx}
-
-%% Set page size with a wider right margin
-\geometry{letterpaper, left=15mm, top=40mm, bottom=23mm, right=15mm}
+\usepackage{hyperref}
+\usepackage{xcolor}
 
 %% Let's define some colours
 \definecolor{light}{HTML}{D1DBE5}
 \definecolor{highlight}{HTML}{447099}
 \definecolor{dark}{HTML}{213D4F}
+
+%% Make links bold and underlined
+%% \AtBeginDocument{%
+%% \definecolor{highlight}{HTML}{447099}
+%% \hypersetup{
+%%     colorlinks=true,
+%%     linkcolor=highlight,
+%%     urlcolor=highlight,
+%%     linkbordercolor=highlight,
+%%     pdfborderstyle={/S/U/W 1} % underline style for links
+%% }
+%% }
+
+%% Set page size with a wider right margin
+\geometry{letterpaper, left=15mm, top=40mm, bottom=23mm, right=15mm}
+
+
 
 %% Let's add a border at the top
 \AddToShipoutPicture{%
@@ -27,8 +43,17 @@
 }%
 }
 
-%% Style the page number
-\fancypagestyle{mystyle}{
+%% Style the pages
+\fancypagestyle{default}{
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[R]{\thepage}
+  \fancyfootoffset{3.5cm}
+}
+\setlength{\footskip}{20pt}
+
+%% Style the last page
+\fancypagestyle{last-page}{
   \fancyhf{}
   \renewcommand\headrulewidth{0pt}
   \fancyfoot[R]{\thepage}
@@ -86,3 +111,5 @@
 }
 \makeatother
 
+\pagestyle{default} % Default page style
+\AtEndDocument{\thispagestyle{last-page}} % Page style at \end{document}
