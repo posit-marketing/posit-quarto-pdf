@@ -7,13 +7,13 @@ Quarto extension for a template to generate a PDF with Posit-branded LaTeX styli
 To install the Quarto extension, create a directory, and use the template file:
 
 ``` bash
-quarto use template rstudio-marketing/posit-quarto-pdf
+quarto use template posit-marketing/posit-quarto-pdf
 ```
 
 To use the extension in an existing project without installing the template file:
 
 ``` bash
-quarto install extension rstudio-marketing/posit-quarto-pdf
+quarto install extension posit-marketing/posit-quarto-pdf
 ```
 Note that you will need to update the output format in the YAML of your Quarto document to `format: PositQuarto-pdf` to enable use of the extension:
 
